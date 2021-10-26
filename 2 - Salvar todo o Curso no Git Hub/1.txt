@@ -3,4 +3,9 @@ Primeiro Passo, criar um diretorio no git para salvar o Curso
 1 - Incluir um arquivo git ignore para não levar a pasta key de acesso ao AWS
 Criar arquivo .gitignore
 
-2 - git Init
+Comandos
+git Init ( inicar o git )
+git commit -m 'Enviando Primeiros Arquivos'
+git branch -M main
+git remote add origin https://github.com/Douglas-Bonelli/DevOps_Java_1.git
+git push -u origin main
