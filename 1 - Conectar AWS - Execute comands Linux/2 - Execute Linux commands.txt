@@ -1,0 +1,102 @@
+ls /
+ls /bin
+ls /dev
+ls /home
+ls /lib
+ls /mnt
+ls /opt
+ls /proc
+ls /root
+ls /tmp
+ls /usr
+ls /var
+
+sudo -i ( permite o uso sem o sudo )
+pwd     ( mostra o caminho atual )
+ls
+
+mkdir mydir  ( Cria um Diretório )
+ls
+cd mydir     ( entra no diretorio criado )
+pwd
+
+cat> myfile.txt               ( Cria um Arquivo, a proxima linha vc já esta no arquivo )
+All the power is with in you  ( Escreva um texto )
+you can do anithing and everithing ( ctrl para sair )
+
+ls
+ls -l  ( Lista detlhada )
+ls -a  ( lista com arquivos ocultos )
+ls -r  ( lista de leitura )
+
+mkdir subdir ( Cria sub diretorio )
+cd subdir    ( Entra no sub diretorio )
+pwd          ( Caminho do sub diretorio )
+
+cp myfile.txt myfile1.txt      ( Copiar um Arquivo )
+
+ls
+
+rm file.txt ( remove um arquivo )
+rm -r mydir/ ( Remove o Diretorio, se houver arquivos vai perguntando se deseja excluit tb )
+
+ls
+
+vi myfile.txt ( Cria/Entra em um arquivo com o VI )
+
+I   ( Habilita o arquivo para edição )
+
+esc + shift + :
+
+:wq   ( write and quick , sai e salva as alterações )
+:q!   ( Dont save and quickls , sai e não salva as alterações )
+
+
+vi myfile.txt ( Abre novamente o arquivo )
+
+-----------------------------------------------------------------
+( o comando yum no linux instala ou exibe informções de softwares instalados )
+
+yum repolist       ( informações da Maquina AWS )
+
+yum list installed ( lista de tudo que esta instalado na Maquina AWS )
+
+yum grouplist      ( Groupo das Instalações )
+
+yum install httpd  ( Instala um software/Aplicação/Serviço )
+
+service httpd start ( inicia o serviço instalado acima )
+
+
+
+vi /var/www/html/index.html ( Edita o arquivo criado na instalação acima )
+
+My WebServer !!
+esc + shift : wq ( Escrever a Frase, salvar e sair do arquivo )
+
+yum install curl  ( instalar o curl, para acessar via porta )
+
+curl --manual      ( exibe o manual de uso )
+curl localhost 80  ( executa a porta 80 do httpd )
+service httpd stop ( para o serviço )
+
+yum remove httpd   ( remove o httpd )
+
+tail -5 /var/log/yum.log ( log das atualizações )
+
+yum history              ( historico das instalações na maquina AWS )
+
+yum search java          ( Procura pela palavra java nas instalações )
+yum search htppd         ( Procura pela palavra httpd nas instalações )
+
+ 
+
+
+
+
+
+
+
+
+
+

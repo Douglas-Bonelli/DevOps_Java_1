@@ -1,0 +1,6 @@
+Primeiro Passo, criar um diretorio no git para salvar o Curso
+
+1 - Incluir um arquivo git ignore para não levar a pasta key de acesso ao AWS
+Criar arquivo .gitignore
+
+2 - git Init

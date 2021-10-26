@@ -1,0 +1,8 @@
+1 - Enter on the key Folder by prompt
+
+2 - Include the code which is inside the AWS controller connect
+
+3 - sudo -i
+
+4 - ls   
+    you are in the directory of linux machine.
